@@ -1,0 +1,28 @@
+{
+  "name": "shopify-theme-workspace",
+  "version": "1.0.0",
+  "description": "Shopify theme local dev environment using theme kit and node.js",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "shopify-themekit deploy",
+    "download": "shopify-themekit download",
+    "get": "shopify-themekit get",
+    "open": "shopify-themekit open",
+    "start": "npm run watch",
+    "watch": "shopify-themekit watch",
+    "update": "shopify-themekit update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobykeod/shopify-theme-workspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobykeod/shopify-theme-workspace/issues"
+  },
+  "homepage": "https://github.com/tobykeod/shopify-theme-workspace#readme",
+  "devDependencies": {
+    "@shopify/themekit": "^1.1.7"
+  }
+}
